@@ -1,0 +1,371 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: hwb(0 8% 11%);
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./images/ai-generated-spices-and-herbs-on-black-background-with-copy-space-photo.jpg');
+}
+
+.one {
+    margin-left: 70%;
+    font-size: larger;
+    font-weight: bolder;
+
+
+}
+
+
+header {
+    width: 100%;
+    margin-top: 2%;
+    /* padding: 5%; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(0, 0, 0);
+    padding: 5px;
+    height: 55px;
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+  
+}
+
+nav ul li {
+    margin: 0 15px;
+   
+
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-size: larger;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.hero {
+    background: url('images/background.jpg') no-repeat center center/cover;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-left: 10%;
+    animation: backwards;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.hero .btn {
+    background: rgb(0, 0, 0);
+    padding: 10px 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+h1 {
+    text-shadow: #fff;
+    font-style: normal;
+    margin-left: 15%;
+
+}
+
+.about {
+    color: #000000;
+    margin-left: 25%;
+}
+
+.container {
+    color: rgb(0, 0, 0);
+}
+
+.btn {
+    background-color: #fff;
+    border-radius: 2%;
+    color: #333;
+    text-decoration: none;
+    text-align: center;
+    margin-left: 12%;
+}
+
+.tre {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./images/');
+}
+
+.four {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./images/vivid-blurred-colorful-wallpaper-background_58702-5912.avif');
+}
+
+.two {
+    color: rgb(255, 0, 0);
+
+}
+
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+    color: #000000;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+nav ul li a :hover {
+    color: #e65100;
+}
+
+
+/* Search Bar */
+.search-container {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.search-container input {
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-container button {
+    padding: 10px;
+    background-color: #ff9800;
+    color: rgb(209, 43, 43);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Container */
+.container {
+    display: flex;
+    padding: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    padding: 15px;
+    background: white;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Food List */
+.food-list {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding-left: 20px;
+}
+
+/* Food Item */
+.food-item {
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.food-item img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.food-item h3 {
+    margin: 10px 0;
+    color: #ff3e03;
+}
+
+.food-item p {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff5900;
+}
+
+/* Order Button */
+.order-btn {
+    padding: 10px;
+    background-color: #e65100;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.order-btn:hover {
+    background-color: #bf360c;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .food-list {
+        padding-left: 0;
+    }
+
+    .sidebar {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+
+/* Contact Box */
+.contact-box {
+    background: #fff;
+    padding: 30px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    /* Effective Shadow */
+    text-align: center;
+}
+
+.contact-box h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-box input,
+.contact-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-box textarea {
+    resize: none;
+    height: 100px;
+}
+
+/* Button Styling */
+.contact-box button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.contact-box button:hover {
+    background: #0056b3;
+    box-shadow: 0px 5px 15px rgba(0, 123, 255, 0.4);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    /* Centers content horizontally */
+    flex-wrap: wrap;
+    /* Wraps items if the screen is smaller */
+    gap: 20px;
+    /* Adds space between items */
+    padding: 20px;
+}
+
+.food-list {
+    display: flex;
+    flex-wrap: wrap;
+    /* Wraps items if the row gets too long */
+    gap: 20px;
+    /* Space between food items */
+    justify-content: center;
+    /* Align items in the center */
+}
+
+.food-item {
+    width: 300px;
+    /* Fixed width for each item */
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.food-item:hover {
+    transform: scale(1.05);
+    /* Slight zoom effect on hover */
+}
+
+.food-item img {
+    width: 100%;
+    height: 200px;
+    /* Fixed height */
+    border-radius: 10px;
+    object-fit: cover;
+    /* Ensures the image fits nicely */
+}
+
+.order-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.order-btn:hover {
+    background-color: #0056b3;
+}
